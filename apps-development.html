@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GGGplatforms</title>
+  <link rel="icon" href="assets/image/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ 
+</head>
+
+<body class="font-poppins">
+  <nav>
+    <!-- first navbar -->
+    <div class="bg-[#707070] hidden lg:flex text-white">
+      <div
+        class="container max-w-[1400px] px-10 flex items-center text-center justify-end py-4 mx-auto gap-6 text-gray-300 font-bold text-[12px]">
+        <a href="#" class="flex gap-1 hover:text-white"><span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#fafafa"
+              fill="none">
+              <path
+                d="M4.91186 10.5413L7.55229 7.90088C8.09091 7.36227 8.27728 6.56642 8.05944 5.83652C7.8891 5.26577 7.69718 4.57964 7.56961 3.99292C7.45162 3.45027 6.97545 3 6.42012 3H4.91186C3.8012 3 2.88911 3.90384 3.01094 5.0078C3.93709 13.3996 10.6004 20.0629 18.9922 20.9891C20.0962 21.1109 21 20.1988 21 19.0881V17.5799C21 17.0246 20.5479 16.569 20.0015 16.4696C19.3988 16.36 18.7611 16.1804 18.2276 16.0103C17.4611 15.7659 16.6091 15.9377 16.0403 16.5065L13.4587 19.0881"
+                stroke="#fafafa" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></span>
+          +971567689898
+        </a>
+        <a href="mailto:sales@gggplatforms.com" class="flex gap-1 hover:text-white transition">
+          <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#fafafa"
+              fill="none">
+              <path d="M8.5 14.5H15.5M8.5 9.5H12" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+              <path
+                d="M14.1706 20.8905C18.3536 20.6125 21.6856 17.2332 21.9598 12.9909C22.0134 12.1607 22.0134 11.3009 21.9598 10.4707C21.6856 6.22838 18.3536 2.84913 14.1706 2.57107C12.7435 2.47621 11.2536 2.47641 9.8294 2.57107C5.64639 2.84913 2.31441 6.22838 2.04024 10.4707C1.98659 11.3009 1.98659 12.1607 2.04024 12.9909C2.1401 14.536 2.82343 15.9666 3.62791 17.1746C4.09501 18.0203 3.78674 19.0758 3.30021 19.9978C2.94941 20.6626 2.77401 20.995 2.91484 21.2351C3.05568 21.4752 3.37026 21.4829 3.99943 21.4982C5.24367 21.5285 6.08268 21.1757 6.74868 20.6846C7.1264 20.4061 7.31527 20.2668 7.44544 20.2508C7.5756 20.2348 7.83177 20.3403 8.34401 20.5513C8.8044 20.7409 9.33896 20.8579 9.8294 20.8905C11.2536 20.9852 12.7435 20.9854 14.1706 20.8905Z"
+                stroke="currentColor" stroke-width="1" stroke-linejoin="round"></path>
+            </svg></span>
+          sales@gggplatforms.com</a>
+
+      </div>
+
+    </div>
+    <!-- logo and  two navbar are in same and used flex -->
+    <div
+      class="flex container items-center justify-between mx-auto max-w-[1400px] px-4 md:px-10 py-4 w-full  top-0 z-50 bg-white">
+      <a href="index.html" class="flex-shrink-0">
+        <img src="assets/image/platformlogo.png" alt="Logo" class="md:w-[300px] w-[200px]  max-h-[75px]" />
+      </a>
+
+      <div class="flex flex-col gap-2">
+        <!-- second navbar -->
+        <div class="flex items-center justify-end main-navbar:pt-0 pt-4 gap-3 md:gap-6 h-12">
+          <input id="searchInput" type="text" placeholder="Search..."
+            class="hidden border rounded-lg px-3 py-1 text-sm focus:outline-none border-gray-400 transition-all duration-300" />
+          <button id="searchBtn"
+            class="hover:text-gray-900 hover:scale-110 transition-transform duration-200 text-gray-600"
+            aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#494c4f"
+              fill="none">
+              <path d="M17 17L21 21" stroke="#494c4f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              </path>
+              <path
+                d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z"
+                stroke="#494c4f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+
+
+
+          <button class="relative hover:text-gray-900 text-gray-600 text-center" aria-label="Cart">
+            <svg class="hover:scale-110 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" width="24" height="24" color="#494C4F" fill="none">
+              <path d="M8 16L16.7201 15.2733C19.4486 15.046 20.0611 14.45 20.3635 11.7289L21 6" stroke="#494C4F"
+                stroke-width="1.5" stroke-linecap="round"></path>
+              <path d="M6 6H22" stroke="#494C4F" stroke-width="1.5" stroke-linecap="round"></path>
+              <circle cx="6" cy="20" r="2" stroke="#494C4F" stroke-width="1.5"></circle>
+              <circle cx="17" cy="20" r="2" stroke="#494C4F" stroke-width="1.5"></circle>
+              <path d="M8 20L15 20" stroke="#494C4F" stroke-width="1.5" stroke-linecap="round"></path>
+              <path
+                d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18"
+                stroke="#494C4F" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+            <span
+              class="absolute -top-3 -right-3 text-[10px] leading-none px-[6px] py-[4px] rounded-full bg-sky-600 text-white">0</span>
+          </button>
+
+          <a href="#" aria-label="WhatsApp"
+            class="inline-flex items-center hover:scale-110 transition-transform duration-200 justify-center w-8 h-8 rounded-lg bg-green-500 text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none">
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.3789 2.27907 14.6926 2.78382 15.8877C3.06278 16.5481 3.20226 16.8784 3.21953 17.128C3.2368 17.3776 3.16334 17.6521 3.01642 18.2012L2 22L5.79877 20.9836C6.34788 20.8367 6.62244 20.7632 6.87202 20.7805C7.12161 20.7977 7.45185 20.9372 8.11235 21.2162C9.30745 21.7209 10.6211 22 12 22Z"
+                stroke="#fafafa" stroke-width="1.7" stroke-linejoin="round" />
+              <path
+                d="M8.58815 12.3773L9.45909 11.2956C9.82616 10.8397 10.2799 10.4153 10.3155 9.80826C10.3244 9.65494 10.2166 8.96657 10.0008 7.58986C9.91601 7.04881 9.41086 7 8.97332 7C8.40314 7 8.11805 7 7.83495 7.12931C7.47714 7.29275 7.10979 7.75231 7.02917 8.13733C6.96539 8.44196 7.01279 8.65187 7.10759 9.07169C7.51023 10.8548 8.45481 12.6158 9.91948 14.0805C11.3842 15.5452 13.1452 16.4898 14.9283 16.8924C15.3481 16.9872 15.558 17.0346 15.8627 16.9708C16.2477 16.8902 16.7072 16.5229 16.8707 16.165C17 15.8819 17 15.5969 17 15.0267C17 14.5891 16.9512 14.084 16.4101 13.9992C15.0334 13.7834 14.3451 13.6756 14.1917 13.6845C13.5847 13.7201 13.1603 14.1738 12.7044 14.5409L11.6227 15.4118"
+                stroke="#fcfcfc" stroke-width="1.7" />
+            </svg>
+          </a>
+          <button id="menu-btn" class=" hamburger focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" stroke="#57bee0"
+              stroke-width="2">
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <!-- main navbar -->
+        <div class="bg-white relative main-navbar flex">
+          <div class="flex items-center text-center justify-between">
+            <ul class=" flex items-center text-center space-x-4 pb-[16px]">
+              <li><a href="" class="navbar_text ">
+                  <button class="navbar_text flex active">
+                    Home
+
+                  </button>
+                </a></li>
+
+              <!-- droDropdown menu -->
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  About company
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  min-w-max bg-white text-left rounded shadow z-50">
+                  <li><a href="#" class="dropdownmenu">About Company</a></li>
+                  <li><a href="#" class="dropdownmenu">Our Team</a></li>
+                  <li><a href="portfolio.html" class="dropdownmenu">Portfolio</a></li>
+                  <li><a href="#" class="dropdownmenu">Company Announcements</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Annual General Meeting </a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Project Prospectuses</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Prospectuses</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Guarantor</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Policies & Procedures</a></li>
+
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <a href="#" class="flex flex-shrink-0">
+                  <button class="navbar_text flex">
+                    Services
+                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </a>
+
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+
+                  <li><a href="services.html" class="dropdownmenu">Services</a></li>
+                  <li><a href="#" class="dropdownmenu">Tickets</a></li>
+                  <li><a href="#" class="dropdownmenu">Events</a></li>
+                  <li><a href="#" class="dropdownmenu">Calendar</a></li>
+                  <li><a href="#" class="dropdownmenu">Web Development</a></li>
+                  <li><a href="apps-development.html" class="dropdownmenu">Apps Development</a></li>
+                  <li><a href="blockchain.html" class="dropdownmenu">Blockchain Development</a></li>
+                  <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  store
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="#" class="dropdownmenu">GGG Platforms Store</a></li>
+
+                </ul>
+              </li>
+
+
+
+
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Philanthropy
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+
+                  <li><a href="#" class="dropdownmenu">Philanthropy </a></li>
+                  <li><a href="#" class="dropdownmenu">GGG Ecosystem</a></li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Membership New
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Membership Sign Up</a></li>
+                  <li><a href="#" class="dropdownmenu">Affiliate Sign Up</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">GGG Privilege Card</a></li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Partners New
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+               <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="#" class="dropdownmenu">Partner Center </a></li>
+                  <li><a href="#" class="dropdownmenu">Investor Center</a></li>
+                  <li><a href="#" class="dropdownmenu">Affiliate Center</a></li>
+                  <li><a href="#" class="dropdownmenu">Membership Center</a></li>
+                  <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+                  <li><a href="#" class="dropdownmenu">Gallery</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html" class="navbar_text ">
+                  <button class="navbar_text flex ">
+                    Contact
+
+                  </button>
+                </a></li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Marketplace
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="ggg-platforms-store.html" class="dropdownmenu">GGG Platforms Store</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     <!-- mobile menue -->
+      <div id="overlay" class="fixed inset-0  hidden z-40"></div>
+      <div id="mobile-menu"
+        class="absolute top-26 sm:top-40 left-0 min-h-max w-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out z-50">
+        <div class="p-4">
+          <button id="close-btn" class="text-2xl mb-6 ">✕</button>
+          <ul class="flex flex-col   space-y-4 pb-[15px]">
+            <li><a href="" class="navbar_text ">
+                <button class="navbar_text flex active mobile_dropdownmenu">
+                  Home
+
+                </button>
+              </a></li>
+            <!-- droDropdown menu -->
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                About company
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  min-w-full bg-white  rounded shadow z-50">
+                <li><a href="#" class="dropdownmenu">About Company</a></li>
+                <li><a href="#" class="dropdownmenu">Our Team</a></li>
+                <li><a href="portfolio.html" class="dropdownmenu">Portfolio</a></li>
+                <li><a href="#" class="dropdownmenu">Company Announcements</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Annual General Meeting </a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Project Prospectuses</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Prospectuses</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Guarantor</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Policies & Procedures</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <a class="flex flex-shrink-0" href="#">
+                <button class="navbar_text flex mobile_dropdownmenu">
+                  Services
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+              </a>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full  bg-white text-left rounded shadow z-50">
+                <li><a href="services.html" class="dropdownmenu">Services</a></li>
+                <li><a href="#" class="dropdownmenu">Tickets</a></li>
+                <li><a href="#" class="dropdownmenu">Events</a></li>
+                <li><a href="#" class="dropdownmenu">Calendar</a></li>
+                <li><a href="#" class="dropdownmenu">Web Development</a></li>
+                <li><a href="apps-development.html" class="dropdownmenu">Apps Development</a></li>
+                <li><a href="blockchain.html" class="dropdownmenu">Blockchain Development</a></li>
+                <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu ">
+                store
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+                <li><a href="#" class="dropdownmenu">GGG Platforms Store</a></li>
+
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Philanthropy
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+
+                <li><a href="#" class="dropdownmenu">Philanthropy </a></li>
+                <li><a href="#" class="dropdownmenu">GGG Ecosystem</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Membership New
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Membership Sign Up</a></li>
+                <li><a href="#" class="dropdownmenu">Affiliate Sign Up</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">GGG Privilege Card</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Partners New
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+                <li><a href="#" class="dropdownmenu">Partner Center </a></li>
+                <li><a href="#" class="dropdownmenu">Investor Center</a></li>
+                <li><a href="#" class="dropdownmenu">Affiliate Center</a></li>
+                <li><a href="#" class="dropdownmenu">Membership Center</a></li>
+                <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+                <li><a href="#" class="dropdownmenu">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html" class="navbar_text ">
+                <button class="navbar_text flex  mobile_dropdownmenu">
+                  Contact
+
+                </button>
+              </a></li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Marketplace
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+
+                <li><a href="ggg-platforms-store.html" class="dropdownmenu">GGG Platforms Store</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+     <section class="bg-[#eceeee]">
+      <div
+        class="max-w-[1400px] mx-auto justify-between flex py-8 px-4 md:px-10"
+      >
+        <div class="text-md text-[#747575] font-medium">Services</div>
+        <div class="text-[#747575] text-sm">Home / Services</div>
+      </div>
+    </section>
+   <!-- Interested on our Services? -->
+   
+    <section
+        class="bg-[url('https://gggplatforms.com/wp-content/uploads/2018/05/Scene_2.jpg')] relative bg-cover bg-center h-auto w-full">
+        <!-- <div class="relative z-20">
+            <svg class="transform scale-y-[-1]" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#ffffff"
+                width="100%" height="200" viewBox="0 0 4 0.266661" preserveAspectRatio="none" style="height: 200px">
+                <polygon points="4,0 4,0.266661 -0,0.266661"></polygon>
+            </svg>
+        </div> -->
+        <div class="absolute z-10 inset-0 bg-[#43b8dee3] lg:m-0 m-0.5"></div>
+
+        <div class="relative max-w-[1400px] mx-auto px-4 md:px-10 py-10 md:py-24">
+            <div class="relative z-20">
+                <div class="text-[#fafafa] md:max-w-5xl mr-auto">
+                    <h1 >Apps Development</h1> 
+                     <p>Implementing your innovative ideas into the next-generation mobile application with cross-platform technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <div class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-between px-4 md:px-10 section_margin mt-12   gap-12">
+
+        <!-- LEFT SIDE -->
+        <div class=" font-poppins text-[15px] leading-[25px] font-normal text-gray-700">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4 ">Apps</h2>
+            <p class="">
+              GGGPlatforms website and app division <a class="text-gray-800 hover:text-blue-500 hover:underline transition" href="http://gggtechlabs.com/">GGGTechlabs</a>  strives to provide solutions for advanced app design & development. We aim at providing intuitive customizable apps ranging from Android, IOS & Web applications. We make sure your app gets placed on the Google Play store & Apple IOS app store.
+<br>
+<br>
+Our goal is to make sure; your app is unique, engaging and robust.
+                
+            </p>
+        </div>
+
+        <!-- RIGHT SIDE: ORBIT -->
+        <div class="relative md:w-[500px] md:h-[500px] w-[320px] h-[320px] mx-auto flex items-center justify-center">
+
+            <!-- Orbit ring -->
+            <div class="absolute w-full h-full rounded-full border border-gray-300"></div>
+
+            <!-- Center Circle -->
+            <div id="infoContent"
+                class="absolute top-1/2 left-1/2 w-[300px] h-[300px] rounded-full bg-green-500 text-center flex flex-col justify-center p-5 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                <h3 class="text-xl font-semibold text-white">International Experts</h3>
+                <p class="text-sm text-white">Our diverse team from America, Europe, Africa &amp; Asia</p>
+            </div>
+
+            <!-- Orbit Icons -->
+            <div id="icon1"
+                class="absolute w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer bg-pink-500 left-1/2 top-0 transform -translate-x-1/2 -translate-y-1/2">
+                <i class="fas fa-home"></i>
+            </div>
+            <div id="icon2"
+                class="absolute w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer bg-yellow-400 left-[92%] top-[25%] transform -translate-x-1/2 -translate-y-1/2">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div id="icon3"
+                class="absolute w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer bg-blue-500 left-[92%] top-[75%] transform -translate-x-1/2 -translate-y-1/2">
+                <i class="fas fa-cogs"></i>
+            </div>
+            <div id="icon4"
+                class="absolute w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer bg-red-500 left-1/2 top-full transform -translate-x-1/2 -translate-y-1/2">
+                <i class="fas fa-users"></i>
+            </div>
+            <div id="icon5"
+                class="absolute w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer bg-purple-500 left-[8%] top-[75%] transform -translate-x-1/2 -translate-y-1/2">
+                <i class="fas fa-flask"></i>
+            </div>
+            <div id="icon6"
+                class="absolute w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer bg-green-600 left-[8%] top-[25%] transform -translate-x-1/2 -translate-y-1/2">
+                <i class="fas fa-check"></i>
+            </div>
+
+        </div>
+    </div>
+  <script src="assets/script.js"></script>
+
+</body>
+</html>

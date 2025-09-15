@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="assets/image/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="font-poppins">
+    <nav>
+    <!-- first navbar -->
+    <div class="bg-[#707070] hidden lg:flex text-white">
+      <div
+        class="container max-w-[1400px] px-10 flex items-center text-center justify-end py-4 mx-auto gap-6 text-gray-300 font-bold text-[12px]">
+        <a href="#" class="flex gap-1 hover:text-white"><span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#fafafa"
+              fill="none">
+              <path
+                d="M4.91186 10.5413L7.55229 7.90088C8.09091 7.36227 8.27728 6.56642 8.05944 5.83652C7.8891 5.26577 7.69718 4.57964 7.56961 3.99292C7.45162 3.45027 6.97545 3 6.42012 3H4.91186C3.8012 3 2.88911 3.90384 3.01094 5.0078C3.93709 13.3996 10.6004 20.0629 18.9922 20.9891C20.0962 21.1109 21 20.1988 21 19.0881V17.5799C21 17.0246 20.5479 16.569 20.0015 16.4696C19.3988 16.36 18.7611 16.1804 18.2276 16.0103C17.4611 15.7659 16.6091 15.9377 16.0403 16.5065L13.4587 19.0881"
+                stroke="#fafafa" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></span>
+          +971567689898
+        </a>
+        <a href="mailto:sales@gggplatforms.com" class="flex gap-1 hover:text-white transition">
+          <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#fafafa"
+              fill="none">
+              <path d="M8.5 14.5H15.5M8.5 9.5H12" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+              <path
+                d="M14.1706 20.8905C18.3536 20.6125 21.6856 17.2332 21.9598 12.9909C22.0134 12.1607 22.0134 11.3009 21.9598 10.4707C21.6856 6.22838 18.3536 2.84913 14.1706 2.57107C12.7435 2.47621 11.2536 2.47641 9.8294 2.57107C5.64639 2.84913 2.31441 6.22838 2.04024 10.4707C1.98659 11.3009 1.98659 12.1607 2.04024 12.9909C2.1401 14.536 2.82343 15.9666 3.62791 17.1746C4.09501 18.0203 3.78674 19.0758 3.30021 19.9978C2.94941 20.6626 2.77401 20.995 2.91484 21.2351C3.05568 21.4752 3.37026 21.4829 3.99943 21.4982C5.24367 21.5285 6.08268 21.1757 6.74868 20.6846C7.1264 20.4061 7.31527 20.2668 7.44544 20.2508C7.5756 20.2348 7.83177 20.3403 8.34401 20.5513C8.8044 20.7409 9.33896 20.8579 9.8294 20.8905C11.2536 20.9852 12.7435 20.9854 14.1706 20.8905Z"
+                stroke="currentColor" stroke-width="1" stroke-linejoin="round"></path>
+            </svg></span>
+          sales@gggplatforms.com</a>
+
+      </div>
+
+    </div>
+    <!-- logo and  two navbar are in same and used flex -->
+    <div
+      class="flex container items-center justify-between mx-auto max-w-[1400px] px-4 md:px-10 py-4 w-full  top-0 z-50 bg-white">
+      <a href="index.html" class="flex-shrink-0">
+        <img src="assets/image/platformlogo.png" alt="Logo" class="md:w-[300px] w-[200px]  max-h-[75px]" />
+      </a>
+
+      <div class="flex flex-col gap-2">
+        <!-- second navbar -->
+        <div class="flex items-center justify-end main-navbar:pt-0 pt-4 gap-3 md:gap-6 h-12">
+          <input id="searchInput" type="text" placeholder="Search..."
+            class="hidden border rounded-lg px-3 py-1 text-sm focus:outline-none border-gray-400 transition-all duration-300" />
+          <button id="searchBtn"
+            class="hover:text-gray-900 hover:scale-110 transition-transform duration-200 text-gray-600"
+            aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#494c4f"
+              fill="none">
+              <path d="M17 17L21 21" stroke="#494c4f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              </path>
+              <path
+                d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z"
+                stroke="#494c4f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+
+
+
+          <button class="relative hover:text-gray-900 text-gray-600 text-center" aria-label="Cart">
+            <svg class="hover:scale-110 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" width="24" height="24" color="#494C4F" fill="none">
+              <path d="M8 16L16.7201 15.2733C19.4486 15.046 20.0611 14.45 20.3635 11.7289L21 6" stroke="#494C4F"
+                stroke-width="1.5" stroke-linecap="round"></path>
+              <path d="M6 6H22" stroke="#494C4F" stroke-width="1.5" stroke-linecap="round"></path>
+              <circle cx="6" cy="20" r="2" stroke="#494C4F" stroke-width="1.5"></circle>
+              <circle cx="17" cy="20" r="2" stroke="#494C4F" stroke-width="1.5"></circle>
+              <path d="M8 20L15 20" stroke="#494C4F" stroke-width="1.5" stroke-linecap="round"></path>
+              <path
+                d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18"
+                stroke="#494C4F" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+            <span
+              class="absolute -top-3 -right-3 text-[10px] leading-none px-[6px] py-[4px] rounded-full bg-sky-600 text-white">0</span>
+          </button>
+
+          <a href="#" aria-label="WhatsApp"
+            class="inline-flex items-center hover:scale-110 transition-transform duration-200 justify-center w-8 h-8 rounded-lg bg-green-500 text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none">
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.3789 2.27907 14.6926 2.78382 15.8877C3.06278 16.5481 3.20226 16.8784 3.21953 17.128C3.2368 17.3776 3.16334 17.6521 3.01642 18.2012L2 22L5.79877 20.9836C6.34788 20.8367 6.62244 20.7632 6.87202 20.7805C7.12161 20.7977 7.45185 20.9372 8.11235 21.2162C9.30745 21.7209 10.6211 22 12 22Z"
+                stroke="#fafafa" stroke-width="1.7" stroke-linejoin="round" />
+              <path
+                d="M8.58815 12.3773L9.45909 11.2956C9.82616 10.8397 10.2799 10.4153 10.3155 9.80826C10.3244 9.65494 10.2166 8.96657 10.0008 7.58986C9.91601 7.04881 9.41086 7 8.97332 7C8.40314 7 8.11805 7 7.83495 7.12931C7.47714 7.29275 7.10979 7.75231 7.02917 8.13733C6.96539 8.44196 7.01279 8.65187 7.10759 9.07169C7.51023 10.8548 8.45481 12.6158 9.91948 14.0805C11.3842 15.5452 13.1452 16.4898 14.9283 16.8924C15.3481 16.9872 15.558 17.0346 15.8627 16.9708C16.2477 16.8902 16.7072 16.5229 16.8707 16.165C17 15.8819 17 15.5969 17 15.0267C17 14.5891 16.9512 14.084 16.4101 13.9992C15.0334 13.7834 14.3451 13.6756 14.1917 13.6845C13.5847 13.7201 13.1603 14.1738 12.7044 14.5409L11.6227 15.4118"
+                stroke="#fcfcfc" stroke-width="1.7" />
+            </svg>
+          </a>
+          <button id="menu-btn" class=" hamburger focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" stroke="#57bee0"
+              stroke-width="2">
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <!-- main navbar -->
+        <div class="bg-white relative main-navbar flex">
+          <div class="flex items-center text-center justify-between">
+            <ul class=" flex items-center text-center space-x-4 pb-[16px]">
+              <li><a href="" class="navbar_text ">
+                  <button class="navbar_text flex active">
+                    Home
+
+                  </button>
+                </a></li>
+
+              <!-- droDropdown menu -->
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  About company
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  min-w-max bg-white text-left rounded shadow z-50">
+                  <li><a href="#" class="dropdownmenu">About Company</a></li>
+                  <li><a href="#" class="dropdownmenu">Our Team</a></li>
+                  <li><a href="portfolio.html" class="dropdownmenu">Portfolio</a></li>
+                  <li><a href="#" class="dropdownmenu">Company Announcements</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Annual General Meeting </a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Project Prospectuses</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Prospectuses</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Guarantor</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Policies & Procedures</a></li>
+
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <a href="#" class="flex flex-shrink-0">
+                  <button class="navbar_text flex">
+                    Services
+                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </a>
+
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+
+                  <li><a href="services.html" class="dropdownmenu">Services</a></li>
+                  <li><a href="#" class="dropdownmenu">Tickets</a></li>
+                  <li><a href="#" class="dropdownmenu">Events</a></li>
+                  <li><a href="#" class="dropdownmenu">Calendar</a></li>
+                  <li><a href="#" class="dropdownmenu">Web Development</a></li>
+                  <li><a href="apps-development.html" class="dropdownmenu">Apps Development</a></li>
+                  <li><a href="blockchain.html" class="dropdownmenu">Blockchain Development</a></li>
+                  <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  store
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="#" class="dropdownmenu">GGG Platforms Store</a></li>
+
+                </ul>
+              </li>
+
+
+
+
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Philanthropy
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+
+                  <li><a href="#" class="dropdownmenu">Philanthropy </a></li>
+                  <li><a href="#" class="dropdownmenu">GGG Ecosystem</a></li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Membership New
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">Membership Sign Up</a></li>
+                  <li><a href="#" class="dropdownmenu">Affiliate Sign Up</a></li>
+                  <li><a href="membership-sign-up.html" class="dropdownmenu">GGG Privilege Card</a></li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Partners New
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+               <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="#" class="dropdownmenu">Partner Center </a></li>
+                  <li><a href="#" class="dropdownmenu">Investor Center</a></li>
+                  <li><a href="#" class="dropdownmenu">Affiliate Center</a></li>
+                  <li><a href="#" class="dropdownmenu">Membership Center</a></li>
+                  <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+                  <li><a href="#" class="dropdownmenu">Gallery</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html" class="navbar_text ">
+                  <button class="navbar_text flex ">
+                    Contact
+
+                  </button>
+                </a></li>
+              <li class="relative group">
+                <!-- Button -->
+                <button class="navbar_text flex">
+                  Marketplace
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="hidden group-hover:block absolute  w-[200px] bg-white text-left rounded shadow z-50">
+                  <li><a href="ggg-platforms-store.html" class="dropdownmenu">GGG Platforms Store</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     <!-- mobile menue -->
+      <div id="overlay" class="fixed inset-0  hidden z-40"></div>
+      <div id="mobile-menu"
+        class="absolute top-26 sm:top-40 left-0 min-h-max w-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out z-50">
+        <div class="p-4">
+          <button id="close-btn" class="text-2xl mb-6 ">✕</button>
+          <ul class="flex flex-col   space-y-4 pb-[15px]">
+            <li><a href="" class="navbar_text ">
+                <button class="navbar_text flex active mobile_dropdownmenu">
+                  Home
+
+                </button>
+              </a></li>
+            <!-- droDropdown menu -->
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                About company
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  min-w-full bg-white  rounded shadow z-50">
+                <li><a href="#" class="dropdownmenu">About Company</a></li>
+                <li><a href="#" class="dropdownmenu">Our Team</a></li>
+                <li><a href="portfolio.html" class="dropdownmenu">Portfolio</a></li>
+                <li><a href="#" class="dropdownmenu">Company Announcements</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Annual General Meeting </a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Project Prospectuses</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Prospectuses</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Bond Issue Guarantor</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Policies & Procedures</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <a class="flex flex-shrink-0" href="#">
+                <button class="navbar_text flex mobile_dropdownmenu">
+                  Services
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+              </a>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full  bg-white text-left rounded shadow z-50">
+                <li><a href="services.html" class="dropdownmenu">Services</a></li>
+                <li><a href="#" class="dropdownmenu">Tickets</a></li>
+                <li><a href="#" class="dropdownmenu">Events</a></li>
+                <li><a href="#" class="dropdownmenu">Calendar</a></li>
+                <li><a href="#" class="dropdownmenu">Web Development</a></li>
+                <li><a href="apps-development.html" class="dropdownmenu">Apps Development</a></li>
+                <li><a href="blockchain.html" class="dropdownmenu">Blockchain Development</a></li>
+                <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu ">
+                store
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+                <li><a href="#" class="dropdownmenu">GGG Platforms Store</a></li>
+
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Philanthropy
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+
+                <li><a href="#" class="dropdownmenu">Philanthropy </a></li>
+                <li><a href="#" class="dropdownmenu">GGG Ecosystem</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Membership New
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+
+                <li><a href="membership-sign-up.html" class="dropdownmenu">Membership Sign Up</a></li>
+                <li><a href="#" class="dropdownmenu">Affiliate Sign Up</a></li>
+                <li><a href="membership-sign-up.html" class="dropdownmenu">GGG Privilege Card</a></li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Partners New
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+                <li><a href="#" class="dropdownmenu">Partner Center </a></li>
+                <li><a href="#" class="dropdownmenu">Investor Center</a></li>
+                <li><a href="#" class="dropdownmenu">Affiliate Center</a></li>
+                <li><a href="#" class="dropdownmenu">Membership Center</a></li>
+                <li><a href="#" class="dropdownmenu">GGG Privilege Card</a></li>
+                <li><a href="#" class="dropdownmenu">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html" class="navbar_text ">
+                <button class="navbar_text flex  mobile_dropdownmenu">
+                  Contact
+
+                </button>
+              </a></li>
+            <li class="relative group">
+              <!-- Button -->
+              <button class="navbar_text flex mobile_dropdownmenu">
+                Marketplace
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <ul class="hidden group-hover:block absolute  w-full bg-white text-left rounded shadow z-50">
+
+                <li><a href="ggg-platforms-store.html" class="dropdownmenu">GGG Platforms Store</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+     <section class="bg-[#eceeee]">
+      <div
+        class="max-w-[1400px] mx-auto justify-between flex py-8 px-4 md:px-10"
+      >
+        <div class="text-md text-[#747575] font-medium">Services</div>
+        <div class="text-[#747575] text-sm">Home / Services</div>
+      </div>
+    </section>
+   <!-- Interested on our Services? -->
+   
+    <section
+        class="bg-[url('https://gggplatforms.com/wp-content/uploads/2018/05/Scene_2.jpg')] relative bg-cover bg-center h-auto w-full">
+        <!-- <div class="relative z-20">
+            <svg class="transform scale-y-[-1]" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#ffffff"
+                width="100%" height="200" viewBox="0 0 4 0.266661" preserveAspectRatio="none" style="height: 200px">
+                <polygon points="4,0 4,0.266661 -0,0.266661"></polygon>
+            </svg>
+        </div> -->
+        <div class="absolute z-10 inset-0 bg-[#43b8dee3] lg:m-0 m-0.5"></div>
+
+        <div class="relative max-w-[1400px] mx-auto px-4 md:px-10 section_margin">
+            <div class="relative z-20">
+                <div class="text-[#fafafa]">
+                <h1 >Interested on our Services?</h1> 
+                <p>Progressively visualize synergistic customer service <br>
+                completely promote customer directed products</p>
+            </div>
+            <div class=" section_margin text-[#485d64]">
+                    <div class="space-y-4  flex flex-col gap-4 relative rounded text-[#fafafa] text-base font-medium">
+                       <div class="gap-2 flex flex-col">
+                        <label for="language" class="block mb-1">Select Service</label>
+                        <select id="language"
+                            class="w-full border text-[#444] text-sm font-[400] border-gray-200 focus:outline-none rounded px-2 py-3">
+                            <option value="" class="text-[#fafafa]" disabled selected hidden>Please choose an option</option>
+                            <option value="en">English</option>
+                            <option value="fr">French</option>
+                            <option value="es">Spanish</option>
+                            <option value="de">German</option>
+                        </select>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 services">
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class=""> Name </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class="">Designation </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class=""> Mobile </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class="">Company </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class=""> Your email </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="country" class="block mb-1">Country</label>
+
+                                <select id="country"
+                                    class="px-2 text-[#444] py-3 border border-gray-200 focus:outline-none rounded">
+                                    <!-- Options will be added by JS -->
+                                </select>
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class=""> Preferred User Name </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+                            <div class="space-y-2 flex flex-col">
+                                <label for="name" class="">Preferred Password </label>
+                                <input type="text" placeholder=""
+                                    class="px-2 py-3 border border-gray-200 focus:outline-none rounded" />
+                            </div>
+
+
+
+
+                        </div>
+
+                        <script>
+                            // Complete country list with emoji flags
+                            const countries = [
+                                { code: "AF", name: "Afghanistan", flag: "🇦🇫" },
+                                { code: "AL", name: "Albania", flag: "🇦🇱" },
+                                { code: "DZ", name: "Algeria", flag: "🇩🇿" },
+                                { code: "AS", name: "American Samoa", flag: "🇦🇸" },
+                                { code: "AD", name: "Andorra", flag: "🇦🇩" },
+                                { code: "AO", name: "Angola", flag: "🇦🇴" },
+                                { code: "AI", name: "Anguilla", flag: "🇦🇮" },
+                                { code: "AQ", name: "Antarctica", flag: "🇦🇶" },
+                                { code: "AG", name: "Antigua & Barbuda", flag: "🇦🇬" },
+                                { code: "AR", name: "Argentina", flag: "🇦🇷" },
+                                { code: "AM", name: "Armenia", flag: "🇦🇲" },
+                                { code: "AW", name: "Aruba", flag: "🇦🇼" },
+                                { code: "AU", name: "Australia", flag: "🇦🇺" },
+                                { code: "AT", name: "Austria", flag: "🇦🇹" },
+                                { code: "AZ", name: "Azerbaijan", flag: "🇦🇿" },
+                                { code: "BS", name: "Bahamas", flag: "🇧🇸" },
+                                { code: "BH", name: "Bahrain", flag: "🇧🇭" },
+                                { code: "BD", name: "Bangladesh", flag: "🇧🇩" },
+                                { code: "BB", name: "Barbados", flag: "🇧🇧" },
+                                { code: "BY", name: "Belarus", flag: "🇧🇾" },
+                                { code: "BE", name: "Belgium", flag: "🇧🇪" },
+                                { code: "BZ", name: "Belize", flag: "🇧🇿" },
+                                { code: "BJ", name: "Benin", flag: "🇧🇯" },
+                                { code: "BM", name: "Bermuda", flag: "🇧🇲" },
+                                { code: "BT", name: "Bhutan", flag: "🇧🇹" },
+                                { code: "BO", name: "Bolivia", flag: "🇧🇴" },
+                                { code: "BA", name: "Bosnia & Herzegovina", flag: "🇧🇦" },
+                                { code: "BW", name: "Botswana", flag: "🇧🇼" },
+                                { code: "BR", name: "Brazil", flag: "🇧🇷" },
+                                { code: "IO", name: "British Indian Ocean Territory", flag: "🇮🇴" },
+                                { code: "VG", name: "British Virgin Islands", flag: "🇻🇬" },
+                                { code: "BN", name: "Brunei", flag: "🇧🇳" },
+                                { code: "BG", name: "Bulgaria", flag: "🇧🇬" },
+                                { code: "BF", name: "Burkina Faso", flag: "🇧🇫" },
+                                { code: "BI", name: "Burundi", flag: "🇧🇮" },
+                                { code: "KH", name: "Cambodia", flag: "🇰🇭" },
+                                { code: "CM", name: "Cameroon", flag: "🇨🇲" },
+                                { code: "CA", name: "Canada", flag: "🇨🇦" },
+                                { code: "CV", name: "Cape Verde", flag: "🇨🇻" },
+                                { code: "KY", name: "Cayman Islands", flag: "🇰🇾" },
+                                { code: "CF", name: "Central African Republic", flag: "🇨🇫" },
+                                { code: "TD", name: "Chad", flag: "🇹🇩" },
+                                { code: "CL", name: "Chile", flag: "🇨🇱" },
+                                { code: "CN", name: "China", flag: "🇨🇳" },
+                                { code: "CX", name: "Christmas Island", flag: "🇨🇽" },
+                                { code: "CC", name: "Cocos (Keeling) Islands", flag: "🇨🇨" },
+                                { code: "CO", name: "Colombia", flag: "🇨🇴" },
+                                { code: "KM", name: "Comoros", flag: "🇰🇲" },
+                                { code: "CG", name: "Congo - Brazzaville", flag: "🇨🇬" },
+                                { code: "CD", name: "Congo - Kinshasa", flag: "🇨🇩" },
+                                { code: "CK", name: "Cook Islands", flag: "🇨🇰" },
+                                { code: "CR", name: "Costa Rica", flag: "🇨🇷" },
+                                { code: "CI", name: "Côte d’Ivoire", flag: "🇨🇮" },
+                                { code: "HR", name: "Croatia", flag: "🇭🇷" },
+                                { code: "CU", name: "Cuba", flag: "🇨🇺" },
+                                { code: "CY", name: "Cyprus", flag: "🇨🇾" },
+                                { code: "CZ", name: "Czechia", flag: "🇨🇿" },
+                                { code: "DK", name: "Denmark", flag: "🇩🇰" },
+                                { code: "DJ", name: "Djibouti", flag: "🇩🇯" },
+                                { code: "DM", name: "Dominica", flag: "🇩🇲" },
+                                { code: "DO", name: "Dominican Republic", flag: "🇩🇴" },
+                                { code: "EC", name: "Ecuador", flag: "🇪🇨" },
+                                { code: "EG", name: "Egypt", flag: "🇪🇬" },
+                                { code: "SV", name: "El Salvador", flag: "🇸🇻" },
+                                { code: "GQ", name: "Equatorial Guinea", flag: "🇬🇶" },
+                                { code: "ER", name: "Eritrea", flag: "🇪🇷" },
+                                { code: "EE", name: "Estonia", flag: "🇪🇪" },
+                                { code: "SZ", name: "Eswatini", flag: "🇸🇿" },
+                                { code: "ET", name: "Ethiopia", flag: "🇪🇹" },
+                                { code: "FK", name: "Falkland Islands", flag: "🇫🇰" },
+                                { code: "FO", name: "Faroe Islands", flag: "🇫🇴" },
+                                { code: "FJ", name: "Fiji", flag: "🇫🇯" },
+                                { code: "FI", name: "Finland", flag: "🇫🇮" },
+                                { code: "FR", name: "France", flag: "🇫🇷" },
+                                { code: "GF", name: "French Guiana", flag: "🇬🇫" },
+                                { code: "PF", name: "French Polynesia", flag: "🇵🇫" },
+                                { code: "TF", name: "French Southern Territories", flag: "🇹🇫" },
+                                { code: "GA", name: "Gabon", flag: "🇬🇦" },
+                                { code: "GM", name: "Gambia", flag: "🇬🇲" },
+                                { code: "GE", name: "Georgia", flag: "🇬🇪" },
+                                { code: "DE", name: "Germany", flag: "🇩🇪" },
+                                { code: "GH", name: "Ghana", flag: "🇬🇭" },
+                                { code: "GI", name: "Gibraltar", flag: "🇬🇮" },
+                                { code: "GR", name: "Greece", flag: "🇬🇷" },
+                                { code: "GL", name: "Greenland", flag: "🇬🇱" },
+                                { code: "GD", name: "Grenada", flag: "🇬🇩" },
+                                { code: "GP", name: "Guadeloupe", flag: "🇬🇵" },
+                                { code: "GU", name: "Guam", flag: "🇬🇺" },
+                                { code: "GT", name: "Guatemala", flag: "🇬🇹" },
+                                { code: "GG", name: "Guernsey", flag: "🇬🇬" },
+                                { code: "GN", name: "Guinea", flag: "🇬🇳" },
+                                { code: "GW", name: "Guinea-Bissau", flag: "🇬🇼" },
+                                { code: "GY", name: "Guyana", flag: "🇬🇾" },
+                                { code: "HT", name: "Haiti", flag: "🇭🇹" },
+                                { code: "HN", name: "Honduras", flag: "🇭🇳" },
+                                { code: "HK", name: "Hong Kong", flag: "🇭🇰" },
+                                { code: "HU", name: "Hungary", flag: "🇭🇺" },
+                                { code: "IS", name: "Iceland", flag: "🇮🇸" },
+                                { code: "IN", name: "India", flag: "🇮🇳" },
+                                { code: "ID", name: "Indonesia", flag: "🇮🇩" },
+                                { code: "IR", name: "Iran", flag: "🇮🇷" },
+                                { code: "IQ", name: "Iraq", flag: "🇮🇶" },
+                                { code: "IE", name: "Ireland", flag: "🇮🇪" },
+                                { code: "IM", name: "Isle of Man", flag: "🇮🇲" },
+                                { code: "IL", name: "Israel", flag: "🇮🇱" },
+                                { code: "IT", name: "Italy", flag: "🇮🇹" },
+                                { code: "JM", name: "Jamaica", flag: "🇯🇲" },
+                                { code: "JP", name: "Japan", flag: "🇯🇵" },
+                                { code: "JE", name: "Jersey", flag: "🇯🇪" },
+                                { code: "JO", name: "Jordan", flag: "🇯🇴" },
+                                { code: "KZ", name: "Kazakhstan", flag: "🇰🇿" },
+                                { code: "KE", name: "Kenya", flag: "🇰🇪" },
+                                { code: "KI", name: "Kiribati", flag: "🇰🇮" },
+                                { code: "KW", name: "Kuwait", flag: "🇰🇼" },
+                                { code: "KG", name: "Kyrgyzstan", flag: "🇰🇬" },
+                                { code: "LA", name: "Laos", flag: "🇱🇦" },
+                                { code: "LV", name: "Latvia", flag: "🇱🇻" },
+                                { code: "LB", name: "Lebanon", flag: "🇱🇧" },
+                                { code: "LS", name: "Lesotho", flag: "🇱🇸" },
+                                { code: "LR", name: "Liberia", flag: "🇱🇷" },
+                                { code: "LY", name: "Libya", flag: "🇱🇾" },
+                                { code: "LI", name: "Liechtenstein", flag: "🇱🇮" },
+                                { code: "LT", name: "Lithuania", flag: "🇱🇹" },
+                                { code: "LU", name: "Luxembourg", flag: "🇱🇺" },
+                                { code: "MO", name: "Macau", flag: "🇲🇴" },
+                                { code: "MK", name: "North Macedonia", flag: "🇲🇰" },
+                                { code: "MG", name: "Madagascar", flag: "🇲🇬" },
+                                { code: "MW", name: "Malawi", flag: "🇲🇼" },
+                                { code: "MY", name: "Malaysia", flag: "🇲🇾" },
+                                { code: "MV", name: "Maldives", flag: "🇲🇻" },
+                                { code: "ML", name: "Mali", flag: "🇲🇱" },
+                                { code: "MT", name: "Malta", flag: "🇲🇹" },
+                                { code: "MH", name: "Marshall Islands", flag: "🇲🇭" },
+                                { code: "MQ", name: "Martinique", flag: "🇲🇶" },
+                                { code: "MR", name: "Mauritania", flag: "🇲🇷" },
+                                { code: "MU", name: "Mauritius", flag: "🇲🇺" },
+                                { code: "YT", name: "Mayotte", flag: "🇾🇹" },
+                                { code: "MX", name: "Mexico", flag: "🇲🇽" },
+                                { code: "FM", name: "Micronesia", flag: "🇫🇲" },
+                                { code: "MD", name: "Moldova", flag: "🇲🇩" },
+                                { code: "MC", name: "Monaco", flag: "🇲🇨" },
+                                { code: "MN", name: "Mongolia", flag: "🇲🇳" },
+                                { code: "ME", name: "Montenegro", flag: "🇲🇪" },
+                                { code: "MS", name: "Montserrat", flag: "🇲🇸" },
+                                { code: "MA", name: "Morocco", flag: "🇲🇦" },
+                                { code: "MZ", name: "Mozambique", flag: "🇲🇿" },
+                                { code: "MM", name: "Myanmar (Burma)", flag: "🇲🇲" },
+                                { code: "NA", name: "Namibia", flag: "🇳🇦" },
+                                { code: "NR", name: "Nauru", flag: "🇳🇷" },
+                                { code: "NP", name: "Nepal", flag: "🇳🇵" },
+                                { code: "NL", name: "Netherlands", flag: "🇳🇱" },
+                                { code: "NC", name: "New Caledonia", flag: "🇳🇨" },
+                                { code: "NZ", name: "New Zealand", flag: "🇳🇿" },
+                                { code: "NI", name: "Nicaragua", flag: "🇳🇮" },
+                                { code: "NE", name: "Niger", flag: "🇳🇪" },
+                                { code: "NG", name: "Nigeria", flag: "🇳🇬" },
+                                { code: "NU", name: "Niue", flag: "🇳🇺" },
+                                { code: "NF", name: "Norfolk Island", flag: "🇳🇫" },
+                                { code: "KP", name: "North Korea", flag: "🇰🇵" },
+                                { code: "MP", name: "Northern Mariana Islands", flag: "🇲🇵" },
+                                { code: "NO", name: "Norway", flag: "🇳🇴" },
+                                { code: "OM", name: "Oman", flag: "🇴🇲" },
+                                { code: "PK", name: "Pakistan", flag: "🇵🇰" },
+                                { code: "PW", name: "Palau", flag: "🇵🇼" },
+                                { code: "PS", name: "Palestine", flag: "🇵🇸" },
+                                { code: "PA", name: "Panama", flag: "🇵🇦" },
+                                { code: "PG", name: "Papua New Guinea", flag: "🇵🇬" },
+                                { code: "PY", name: "Paraguay", flag: "🇵🇾" },
+                                { code: "PE", name: "Peru", flag: "🇵🇪" },
+                                { code: "PH", name: "Philippines", flag: "🇵🇭" },
+                                { code: "PL", name: "Poland", flag: "🇵🇱" },
+                                { code: "PT", name: "Portugal", flag: "🇵🇹" },
+                                { code: "PR", name: "Puerto Rico", flag: "🇵🇷" },
+                                { code: "QA", name: "Qatar", flag: "🇶🇦" },
+                                { code: "RE", name: "Réunion", flag: "🇷🇪" },
+                                { code: "RO", name: "Romania", flag: "🇷🇴" },
+                                { code: "RU", name: "Russia", flag: "🇷🇺" },
+                                { code: "RW", name: "Rwanda", flag: "🇷🇼" },
+                                { code: "BL", name: "Saint Barthélemy", flag: "🇧🇱" },
+                                { code: "SH", name: "Saint Helena", flag: "🇸🇭" },
+                                { code: "KN", name: "Saint Kitts & Nevis", flag: "🇰🇳" },
+                                { code: "LC", name: "Saint Lucia", flag: "🇱🇨" },
+                                { code: "MF", name: "Saint Martin", flag: "🇲🇫" },
+                                { code: "PM", name: "Saint Pierre & Miquelon", flag: "🇵🇲" },
+                                { code: "VC", name: "Saint Vincent & Grenadines", flag: "🇻🇨" },
+                                { code: "WS", name: "Samoa", flag: "🇼🇸" },
+                                { code: "SM", name: "San Marino", flag: "🇸🇲" },
+                                { code: "ST", name: "São Tomé & Príncipe", flag: "🇸🇹" },
+                                { code: "SA", name: "Saudi Arabia", flag: "🇸🇦" },
+                                { code: "SN", name: "Senegal", flag: "🇸🇳" },
+                                { code: "RS", name: "Serbia", flag: "🇷🇸" },
+                                { code: "SC", name: "Seychelles", flag: "🇸🇨" },
+                                { code: "SL", name: "Sierra Leone", flag: "🇸🇱" },
+                                { code: "SG", name: "Singapore", flag: "🇸🇬" },
+                                { code: "SX", name: "Sint Maarten", flag: "🇸🇽" },
+                                { code: "SK", name: "Slovakia", flag: "🇸🇰" },
+                                { code: "SI", name: "Slovenia", flag: "🇸🇮" },
+                                { code: "SB", name: "Solomon Islands", flag: "🇸🇧" },
+                                { code: "SO", name: "Somalia", flag: "🇸🇴" },
+                                { code: "ZA", name: "South Africa", flag: "🇿🇦" },
+                                { code: "KR", name: "South Korea", flag: "🇰🇷" },
+                                { code: "SS", name: "South Sudan", flag: "🇸🇸" },
+                                { code: "ES", name: "Spain", flag: "🇪🇸" },
+                                { code: "LK", name: "Sri Lanka", flag: "🇱🇰" },
+                                { code: "SD", name: "Sudan", flag: "🇸🇩" },
+                                { code: "SR", name: "Suriname", flag: "🇸🇷" },
+                                { code: "SE", name: "Sweden", flag: "🇸🇪" },
+                                { code: "CH", name: "Switzerland", flag: "🇨🇭" },
+                                { code: "SY", name: "Syria", flag: "🇸🇾" },
+                                { code: "TW", name: "Taiwan", flag: "🇹🇼" },
+                                { code: "TJ", name: "Tajikistan", flag: "🇹🇯" },
+                                { code: "TZ", name: "Tanzania", flag: "🇹🇿" },
+                                { code: "TH", name: "Thailand", flag: "🇹🇭" },
+                                { code: "TL", name: "Timor-Leste", flag: "🇹🇱" },
+                                { code: "TG", name: "Togo", flag: "🇹🇬" },
+                                { code: "TK", name: "Tokelau", flag: "🇹🇰" },
+                                { code: "TO", name: "Tonga", flag: "🇹🇴" },
+                                { code: "TT", name: "Trinidad & Tobago", flag: "🇹🇹" },
+                                { code: "TN", name: "Tunisia", flag: "🇹🇳" },
+                                { code: "TR", name: "Turkey", flag: "🇹🇷" },
+                                { code: "TM", name: "Turkmenistan", flag: "🇹🇲" },
+                                { code: "TC", name: "Turks & Caicos Islands", flag: "🇹🇨" },
+                                { code: "TV", name: "Tuvalu", flag: "🇹🇻" },
+                                { code: "UG", name: "Uganda", flag: "🇺🇬" },
+                                { code: "UA", name: "Ukraine", flag: "🇺🇦" },
+                                { code: "AE", name: "United Arab Emirates", flag: "🇦🇪" },
+                                { code: "GB", name: "United Kingdom", flag: "🇬🇧" },
+                                { code: "US", name: "United States", flag: "🇺🇸" },
+                                { code: "UY", name: "Uruguay", flag: "🇺🇾" },
+                                { code: "UZ", name: "Uzbekistan", flag: "🇺🇿" },
+                                { code: "VU", name: "Vanuatu", flag: "🇻🇺" },
+                                { code: "VA", name: "Vatican City", flag: "🇻🇦" },
+                                { code: "VE", name: "Venezuela", flag: "🇻🇪" },
+                                { code: "VN", name: "Vietnam", flag: "🇻🇳" },
+                                { code: "WF", name: "Wallis & Futuna", flag: "🇼🇫" },
+                                { code: "EH", name: "Western Sahara", flag: "🇪🇭" },
+                                { code: "YE", name: "Yemen", flag: "🇾🇪" },
+                                { code: "ZM", name: "Zambia", flag: "🇿🇲" },
+                                { code: "ZW", name: "Zimbabwe", flag: "🇿🇼" }
+                            ];
+
+                            const countrySelect = document.getElementById("country");
+
+                            // Populate dropdown
+                            countries.forEach(country => {
+                                const option = document.createElement("option");
+                                option.value = country.code;
+                                option.textContent = `${country.flag} ${country.name}`;
+                                countrySelect.appendChild(option);
+                            });
+                        </script>
+
+
+                        <div class="space-y-2 flex flex-col">
+                            <label for="name" class="">Write Message here...
+                            </label>
+                            <textarea name="" rows="6" id="" class="border border-gray-200 rounded"></textarea>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <button
+                            class="bg-[#fafafa] hover:bg-[#43b8de] hover:text-[#fafafa] text-[#43b8de] px-6 py-3 rounded-full font-bold transition duration-400">
+                            Send Email
+                        </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch -->
+
+ <section
+      class="max-w-[1400px] mx-auto py-14 px-4 md:px-10 grid  grid-cols-1 gap-8"
+    >
+      <div class="">
+        <h1>Get in touch</h1>
+        <p class="text-[#7f7f7e]">
+          <span class="text-[600] text-[16px]">
+Corporate Office Address: 16192 Coastal Highway, Lewes, Delaware, 19958 County of Sussex, USA.  <br>
+Tech Support and Design Offices in Dubai and Nepal.   </span
+          ><br />
+          <br />
+          
+        </p>
+        <div class="flex flex-col py-4 gap-2">
+          <div class="flex text-[#7f7f7e]">
+            <p class="font-bold text-xl">
+              <strong>Email:</strong>
+              <a href="mailto:brad@gggplatforms.com" class="custom-link"
+                >brad@gggplatforms.com</a
+              >
+              ||
+              <a href="mailto:support@gggplatforms.com" class="custom-link"
+                >support@gggplatforms.com</a
+              >
+              ||<a href="mailto:sales@gggplatforms.com" class="custom-link"
+                >sales@gggplatforms.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <div class="text-[#7f7f7e]">
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+971567689898" class="custom-link"
+                >+971 56 768 9898</a
+              >
+            </p>
+           
+            <p>
+              <strong>WhatsApp:</strong>
+              <a href="https://wa.me/971567689898" class="custom-link"
+                >+971 56 768 9898</a
+              >
+            </p>
+          </div>
+        </div>
+
+        
+      </div>
+      <div
+        class="space-y-4 p-6 relative border border-gray-200 rounded text-[#7f7f7e]"
+      >
+        <form class="bg-white  rounded-lg p-8 w-full max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Left Column -->
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium mb-1">Your Name</label>
+          <input type="text" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Address</label>
+          <input type="text" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Your Website</label>
+          <input type="url" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Services</label>
+          <div class="grid grid-cols-1 gap-2">
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Unique Design</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Automated Backups</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> 24/7 Security Monitoring</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Performance Optimization</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Cloud Hosting</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Server Migration</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Backend Website (CMS)</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> Backend Training</label>
+            <label class="flex items-center"><input type="checkbox" class="mr-2"> CRM</label>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Project Description</label>
+          <textarea rows="4" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200"></textarea>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Project Files</label>
+          <input type="file" class="w-full border border-gray-300 rounded-md px-3 py-2">
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium mb-1">Email Address</label>
+          <input type="email" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">City</label>
+          <input type="text" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Inspiration Website</label>
+          <input type="url" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Project Budget</label>
+          <input type="text" placeholder="$1,000 - $2,500" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Project Timeframe</label>
+          <input type="text" placeholder="2-4 Weeks" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring focus:ring-blue-200">
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="mt-6">
+      <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">
+        Submit Request
+      </button>
+    </div>
+  </form>
+ </div>
+    </section>
+
+
+    <section class="grid gap-8 grid-cols-3 max-w-[1400px] mx-auto py-14 px-4 md:px-10 ">
+       <div class="flex flex-col text-center border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+
+        <div class="flex flex-col text-center  border border-gray-300 rounded-lg p-4 items-center">
+          <div class="h-20 w-20 border border-gray-300 rounded-full flex items-center justify-center">
+            <svg class=" " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#494c4f"
+              fill="none">
+              <path
+                d="M20.232 10.054C20.712 9.51405 21.54 8.69805 21.4958 8.36573C21.5298 8.04251 21.3548 7.73888 21.0049 7.13163L20.5114 6.27503C20.1381 5.6272 19.9514 5.30328 19.6338 5.17412C19.3163 5.04495 18.9571 5.14688 18.2388 5.35072L17.0185 5.69442C16.5599 5.80017 16.0788 5.74018 15.66 5.52503L15.3231 5.33066C14.9641 5.10067 14.6879 4.76157 14.535 4.36298L14.201 3.36559C13.9815 2.70558 13.8717 2.37557 13.6103 2.18681C13.3489 1.99805 13.0017 1.99805 12.3074 1.99805H11.1926C10.4982 1.99805 10.151 1.99805 9.88973 2.18681C9.62833 2.37557 9.51853 2.70558 9.29893 3.36559L8.96503 4.36298C8.81213 4.76157 8.53593 5.10067 8.17683 5.33066L7.83993 5.52503C7.42123 5.74018 6.94003 5.80017 6.48143 5.69442L5.26124 5.35072C4.54294 5.14688 4.18374 5.04495 3.86614 5.17412C3.54854 5.30328 3.36194 5.6272 2.98864 6.27503L2.49504 7.13163C2.14515 7.73888 1.97025 8.04251 2.00415 8.36573C2.03815 8.68895 2.27235 8.94942 2.74074 9.47036L3.77184 10.623C4.02374 10.942 4.20274 11.498 4.20274 11.9978C4.20274 12.498 4.02384 13.0538 3.77184 13.3729L2.74074 14.5256C2.27235 15.0465 2.03815 15.307 2.00415 15.6302C1.97025 15.9535 2.14515 16.2571 2.49504 16.8643L2.98864 17.7209C3.36194 18.3687 3.54854 18.6927 3.86614 18.8218C4.18374 18.951 4.54294 18.8491 5.26124 18.6452L6.48143 18.3015C6.94013 18.1957 7.42133 18.2558 7.84013 18.471L8.17693 18.6654C8.53603 18.8954 8.81213 19.2344 8.96493 19.633L9.29893 20.6305C9.51853 21.2905 9.63993 21.6336 9.84 21.778C9.9 21.8214 10.14 22.018 10.728 22"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M15 17.2181C15 17.2181 16 17.5021 16.5 18.5021C16.5 18.5021 17.5962 16.0021 19.008 15.5021"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M22 16.998C22 19.7594 19.7614 21.998 17 21.998C14.2386 21.998 12 19.7594 12 16.998C12 14.2366 14.2386 11.998 17 11.998C19.7614 11.998 22 14.2366 22 16.998Z"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+              <path
+                d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386"
+                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="uppercase">Software Applications</h3>
+          <p class="text-[#707070]">Innovative technology solutions for real-world business challenges</p>
+        </div>
+    </section>
+
+
+      <script src="assets/script.js"></script>
+
+</body>
+
+</html>
